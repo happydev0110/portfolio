@@ -19,21 +19,33 @@ import dribbbleLink from '../../assets/images/links/dribbble.svg';
 // import arop7 from '../../assets/images/projects/arop7.png';
 // import castleescape from '../../assets/images/projects/castleescape.png';
 
+//  Design
 import smarthome from '../../assets/images/projects/smarthome.png';
 import godofwar from '../../assets/images/projects/godofwar.png';
 import itlogo from '../../assets/images/projects/intimelogo.png';
 import nyoologo from '../../assets/images/projects/ntoologo.png';
-// import btnanim from '../../assets/images/projects/btnAnim.png';
-// import navui from '../../assets/images/projects/navui.png';
 import mplogo from '../../assets/images/projects/mplogo.png';
 import discoverro from '../../assets/images/projects/discover-ro.png';
-import vclp from '../../assets/images/projects/vclp.png';
 import vibenow from '../../assets/images/projects/vibenow.png';
-// import dynamicmenu from '../../assets/images/projects/dynamicmenu.png';
 
+// Mobile
+import flutterEcommerce from '../../assets/images/projects/_Flutter_ecommerce.PNG';
+import flutterFashion from '../../assets/images/projects/_Flutter_fashion.PNG';
+import ecommerceApp from '../../assets/images/projects/_EcommerceApp.PNG';
+import eshopWebApp from '../../assets/images/projects/_E-shop.PNG';
+import changelly from '../../assets/images/projects/_Changelly.PNG';
+import workTown from '../../assets/images/projects/_WorkTown.PNG';
+import puzzleSwap from '../../assets/images/projects/_PuzzleSwap.PNG';
 
+// Web
 import nationalMentoring from '../../assets/images/projects/_Capture.PNG';
 import restuarant from '../../assets/images/projects/_Capture1.PNG';
+import acrons from '../../assets/images/projects/_Acrons.PNG';
+import averie from '../../assets/images/projects/_Averie.PNG';
+import geovea from '../../assets/images/projects/_Geovea.PNG';
+import luxury from '../../assets/images/projects/_Luxury.PNG';
+import sketchfab from '../../assets/images/projects/_Sketchfab.PNG';
+
 
 export const web = [
 	// {
@@ -41,12 +53,6 @@ export const web = [
 	// 	date: '2022-05-08',
 	// 	cover: portfolio,
 	// 	links: [{ icon: gitLink, link: 'https://github.com/eduardconstantin/eduardconstantin.github.io' }],
-	// },
-	// {
-	// 	name: 'Livrator.ro',
-	// 	date: '2022-04-30',
-	// 	cover: livrator,
-	// 	links: [{ icon: webLink, link: 'https://www.livrator.ro' }],
 	// },
 	{
 		name: 'Natinal Mentoring',
@@ -60,64 +66,36 @@ export const web = [
 		cover: restuarant,
 		links: [{ icon: webLink, link: 'https://hopstix.com' }],
 	},
-	// { name: 'Ghiceste cuvantul',
-	// 	date: '2022-03-20',
-	// 	cover: ghicicuvantul,
-	// 	links: [{ icon: dribbbleLink, link: 'https://dribbble.com/shots/19659643-Ghiceste-cuvantul-Guess-the-word' }] },
-	// {
-	// 	name: 'Xbox Dashboard',
-	// 	date: '2022-03-06',
-	// 	cover: xboxdash,
-	// 	links: [{ icon: dribbbleLink, link: 'https://dribbble.com/shots/17656116-Xbox-Dashboard-Animation' }],
-	// },
-	// {
-	// 	name: 'Crypto Currencies',
-	// 	date: '2021-10-21',
-	// 	cover: cryptocurrency,
-	// 	links: [
-	// 		// { icon: gitLink, link: 'https://github.com/eduardconstantin/Top-three-crypto' },
-	// 		{ icon: dribbbleLink, link: 'https://dribbble.com/shots/16701637-Top-three-cryptocurrencies' },
-	// 	],
-	// },
-	// {
-	// 	name: 'Travel Deck',
-	// 	date: '2021-11-16',
-	// 	cover: traveldeck,
-	// 	links: [{ icon: dribbbleLink, link: 'https://dribbble.com/shots/16874996-Travel-Deck' }],
-	// },
-	// {
-	// 	name: 'Navigation Menu Animation',
-	// 	date: '2022-03-20',
-	// 	cover: navui,
-	// 	links: [
-	// 		// { icon: gitLink, link: 'https://github.com/eduardconstantin/Navigation-menu-animation' },
-	// 		{ icon: dribbbleLink, link: 'https://dribbble.com/shots/17766382-Navigation-menu-Animation-concept' },
-	// 	],
-	// },
-	// {
-	// 	name: 'Button Animation',
-	// 	date: '2022-05-01',
-	// 	cover: btnanim,
-	// 	links: [
-	// 		// { icon: gitLink, link: 'https://github.com/eduardconstantin/Comic-book-button-anim' },
-	// 		{ icon: dribbbleLink, link: 'https://dribbble.com/shots/18145123-Button-Animation' },
-	// 	],
-	// },
-	// {
-	// 	name: 'JD Software',
-	// 	date: '2022-08-14',
-	// 	cover: jdsoftware,
-	// 	links: [{ icon: webLink, link: 'http://www.jdsoftware.ro' }],
-	// },
-	// {
-	// 	name: 'Dynamic Menu',
-	// 	date: '2022-09-18',
-	// 	cover: dynamicmenu,
-	// 	links: [
-	// 		// { icon: gitLink, link: 'https://github.com/eduardconstantin/dynamic-menu' },
-	// 		{ icon: dribbbleLink, link: 'https://dribbble.com/shots/19413730-Dynamic-Menu' }
-	// 	],
-	// },
+	{
+		name: 'Sketchfab',
+		date: '2019-03-27',
+		cover: sketchfab,
+		links: [{ icon: webLink, link: 'https://sketchfab.com/' }],
+	},
+	{
+		name: 'Luxury Furniture Store',
+		date: '2019-03-27',
+		cover: luxury,
+		links: [{ icon: webLink, link: 'https://shopdeborahlkerbel.ca' }],
+	},
+	{
+		name: 'Geovea',
+		date: '2019-03-27',
+		cover: geovea,
+		links: [{ icon: webLink, link: 'https://www.geovea.com' }],
+	},
+	{
+		name: 'AverieCooks',
+		date: '2019-03-27',
+		cover: averie,
+		links: [{ icon: webLink, link: 'https://www.averiecooks.com' }],
+	},
+	{
+		name: 'Acrons',
+		date: '2018-08-20',
+		cover: acrons,
+		links: [{ icon: webLink, link: 'https://store.acorns.com' }],
+	},
 ];
 
 export const design = [
@@ -161,15 +139,6 @@ export const design = [
 		],
 	},
 	{
-		name: 'Vice City Conceput UI',
-		date: '2022-08-14',
-		cover: vclp,
-		links: [
-			{ icon: dribbbleLink, link: 'https://dribbble.com/shots/19100552-Welcome-back-to-Vice-City-Landing-page' },
-			// { icon: ytLink, link: 'https://www.youtube.com/watch?v=ysBkWUQMLHQ' },
-		],
-	},
-	{
 		name: 'Vibe Now UI',
 		date: '2022-10-28',
 		cover: vibenow,
@@ -180,31 +149,46 @@ export const design = [
 ];
 
 export const game = [
-	// { name: 'Ge Ex', date: '2014-09-01', cover: geex, links: [] },
-	// {
-	// 	name: 'The Last Ancient',
-	// 	date: '2017-05-01',
-	// 	cover: tla,
-	// 	links: [{ icon: webLink, link: 'https://halfroundgames.itch.io/the-last-ancient' }],
-	// },
-	// { name: "Bachelor's degree AR project", date: '2018-07-20', cover: arbachelor, links: [] },
-	// { name: "Master's degree AR project", date: '2020-07-20', cover: ardissertation, links: [] },
-	// {
-	// 	name: 'LG Rollable TV AR project',
-	// 	date: '2019-01-23',
-	// 	cover: arlgtv,
-	// 	links: [{ icon: ytLink, link: 'https://www.youtube.com/watch?v=bn69s8lOCCU&t=26s' }],
-	// },
-	// {
-	// 	name: 'Oneplus 7 AR project',
-	// 	date: '2019-05-21',
-	// 	cover: arop7,
-	// 	links: [{ icon: ytLink, link: 'https://www.youtube.com/watch?v=188qht5Sg8k' }],
-	// },
-	// {
-	// 	name: 'Castle Escape',
-	// 	date: '2018-12-20',
-	// 	cover: castleescape,
-	// 	links: [{ icon: ytLink, link: 'https://www.youtube.com/watch?v=u_s-hL78goQ' }],
-	// },
+	{
+		name: 'Ecommerce App',
+		date: '2023-12-23',
+		cover: ecommerceApp,
+		links: [{ icon: dribbbleLink, link: 'https://play.google.com/store/apps/details?id=com.habitual.ecommerce.project.app&pli=1' }],
+	},
+	{
+		name: 'Flutter Ecommerce',
+		date: '2023-12-23',
+		cover: flutterEcommerce,
+		links: [],
+	},
+	{
+		name: 'E-shop',
+		date: '2023-12-23',
+		cover: eshopWebApp,
+		links: [{ icon: dribbbleLink, link: 'https://demo.evershop.io' }],
+	},
+	{
+		name: 'Changelly',
+		date: '2023-12-23',
+		cover: changelly,
+		links: [{ icon: dribbbleLink, link: 'https://changelly.com' }],
+	},
+	{
+		name: 'Flutter Fashion App',
+		date: '2023-12-23',
+		cover: flutterFashion,
+		links: [],
+	},
+	{
+		name: 'WorkTown',
+		date: '2023-12-23',
+		cover: workTown,
+		links: [{ icon: dribbbleLink, link: 'https://worktown.org' }],
+	},
+	{
+		name: 'PuzzleSwap',
+		date: '2022-2-23',
+		cover: puzzleSwap,
+		links: [{ icon: dribbbleLink, link: 'https://puzzleswap.org/trade' }],
+	},
 ];

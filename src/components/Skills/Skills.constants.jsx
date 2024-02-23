@@ -6,6 +6,10 @@ import dotnetIcon from '../../assets/images/skills/dotnet.png';
 import sqlIcon from '../../assets/images/skills/db.png';
 import jsIcon from '../../assets/images/skills/js.png';
 import csharpIcon from '../../assets/images/skills/csharp.png';
+// import reactNativeIcon from '../../assets/images/skills/reactNative.png';
+import flutterIcon from '../../assets/images/skills/flutter.png';
+import chatGPTIcon from '../../assets/images/skills/chatGPT.png';
+import blockchainIcon from '../../assets/images/skills/blockchain.png';
 
 import unityIcon from '../../assets/images/skills/unity.png';
 import vuforiaIcon from '../../assets/images/skills/vuforia.png';
@@ -18,18 +22,18 @@ export const skillCat = {
 		categoryName: 'Web Dev',
 		percentage: 50,
 		skillList: [
-			{ name: 'HTML', xp: '8 YRS', icon: htmlIcon },
-			{ name: 'CSS', xp: '8 YRS', icon: cssIcon },
-			{ name: 'Javascript', xp: '4 YRS', icon: jsIcon },
-			{ name: 'Bootstrap', xp: '5 YRS', icon: bootstrapIcon },
-			{ name: 'react js', xp: '2 YRS', icon: reactIcon },
-			{ name: 'react native', xp: '2 YRS', icon: reactIcon },
-			{ name: 'flutter', xp: '2 YRS', icon: reactIcon },
-			{ name: 'blockchain', xp: '2 YRS', icon: reactIcon },
-			{ name: 'AI', xp: '2 YRS', icon: reactIcon },
-			{ name: 'C#', xp: '3 YRS', icon: csharpIcon },
-			{ name: 'sql', xp: '2 YRS', icon: sqlIcon },
-			{ name: '.net', xp: '2 YRS', icon: dotnetIcon },
+			{ name: 'HTML', xp: '9 YRS', icon: htmlIcon },
+			{ name: 'CSS', xp: '9 YRS', icon: cssIcon },
+			{ name: 'Javascript', xp: '8 YRS', icon: jsIcon },
+			{ name: 'Bootstrap', xp: '8 YRS', icon: bootstrapIcon },
+			{ name: 'react js', xp: '8 YRS', icon: reactIcon },
+			{ name: 'react native', xp: '6 YRS', icon: reactIcon },
+			{ name: 'flutter', xp: '5 YRS', icon: flutterIcon },
+			{ name: 'blockchain', xp: '5 YRS', icon: blockchainIcon },
+			{ name: 'AI', xp: '5 YRS', icon: chatGPTIcon },
+			{ name: 'C#', xp: '6 YRS', icon: csharpIcon },
+			{ name: 'sql', xp: '7 YRS', icon: sqlIcon },
+			{ name: '.net', xp: '6 YRS', icon: dotnetIcon },
 		],
 	},
 	game: {

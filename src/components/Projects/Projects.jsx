@@ -10,8 +10,8 @@ export default function Projects({ pageTitle }) {
 
 	return (
 		<motion.section className='projects' variants={projectsAnim} initial='init' animate='anim' exit='end'>
-			<ProjectsSlider category='WEB DEV' data={web} />
-			<ProjectsSlider category='Mobile DEV' data={game} />
+			<ProjectsSlider category='WEB' data={web} />
+			<ProjectsSlider category='Mobile' data={game} />
 			<ProjectsSlider category='DESIGN' data={design} />
 		</motion.section>
 	);
